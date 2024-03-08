@@ -13,14 +13,16 @@ public class Animal {
                 ", name='" + name + '\'' +
                 ", size=" + size +
                 ", specialCare='" + specialCare + '\'' +
+                ", animal=" + animal +
                 '}';
     }
 
-    public Animal(String type, String name, Size size, String specialCare,AnimalType animal) {
+    public Animal(String type, String name, Size size, String specialCare, AnimalType animal) {
         this.type = type;
         this.name = name;
         this.size = size;
         this.specialCare = specialCare;
         this.animal = animal;
     }
+
 }

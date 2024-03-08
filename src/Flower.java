@@ -24,4 +24,8 @@ public class Flower {
                 '}';
     }
 
+    public void watered(){
+        chanceOfGrowth+= 20;
+    }
+
 }

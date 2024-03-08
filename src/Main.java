@@ -14,7 +14,9 @@ public class Main {
 
         farm.addFlower(new Flower("Boris",56,53,4,FlowerType.BORIS));
         System.out.println(1+" "+farm);
-        farm.killFlower(0);
+        farm.wateredFlower(0);
         System.out.println(2+" "+farm);
+        farm.killFlower(0);
+        System.out.println(3+" "+farm);
     }
 }
