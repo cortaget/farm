@@ -4,6 +4,8 @@ public class Farm {
     ArrayList<Animal> animals = new ArrayList<>();
     ArrayList<Flower> flowers = new ArrayList<>();
     private int ground;
+    private int checkSmallAnimale;
+    private int checkBigPigs;
 
 
     public void controlGround(){
@@ -15,7 +17,14 @@ public class Farm {
                 throw new RuntimeException("not enought NeededArea");
             }
         }
+    }
 
+    public void cotrolFarm(){
+        checkBigPigs = 0;
+        checkSmallAnimale = 0;
+        for (int i = 0; i< animals.size();i++){
+            //if (animals.get(i).)
+        }
     }
 
     public void addAnimal(Animal o) {
