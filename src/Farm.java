@@ -23,7 +23,7 @@ public class Farm {
         checkBigPigs = 0;
         checkSmallAnimale = 0;
         for (int i = 0; i< animals.size();i++){
-            //if (animals.get(i).)
+            //if (animals.get(i).)gvhk
         }
     }
 
