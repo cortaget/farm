@@ -7,6 +7,8 @@ public class Main {
         System.out.println(2+" "+farm);
 
 
+
+
         System.out.println();
 
 
