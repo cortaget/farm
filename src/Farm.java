@@ -7,9 +7,15 @@ public class Farm {
 
 
     public void controlGround(){
-        if (ground>100){
-            System.out.println("not enought space");
+        ground = 0;
+        for (int i = 0;i< flowers.size();i++){
+            ground += flowers.get(i).getNeededArea();
+            if (ground>100){
+                System.out.println("not enought NeededArea");
+                throw new RuntimeException("not enought NeededArea");
+            }
         }
+
     }
 
     public void addAnimal(Animal o) {
