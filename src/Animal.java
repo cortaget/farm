@@ -4,6 +4,7 @@ public class Animal {
     protected String name;
     protected Size size;
     protected String specialCare;
+    protected AnimalType animal;
 
     @Override
     public String toString() {
@@ -15,10 +16,11 @@ public class Animal {
                 '}';
     }
 
-    public Animal(String type, String name, Size size, String specialCare) {
+    public Animal(String type, String name, Size size, String specialCare,AnimalType animal) {
         this.type = type;
         this.name = name;
         this.size = size;
         this.specialCare = specialCare;
+        this.animal = animal;
     }
 }

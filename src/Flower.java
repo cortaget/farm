@@ -4,12 +4,14 @@ public class Flower {
     protected double price;
     protected double neededArea;
     protected double chanceOfGrowth;
+    protected FlowerType flower;
 
-    public Flower(String name, double price, double neededArea, double chanceOfGrowth) {
+    public Flower(String name, double price, double neededArea, double chanceOfGrowth, FlowerType flower) {
         this.name = name;
         this.price = price;
         this.neededArea = neededArea;
         this.chanceOfGrowth = chanceOfGrowth;
+        this.flower= flower;
     }
 
     @Override
